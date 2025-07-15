@@ -62,7 +62,11 @@ export function Navbar() {
       <div className="size-full lg:flex lg:items-center lg:justify-between">
         <div className="flex min-h-16 items-center justify-between px-[5%] md:min-h-18 lg:min-h-full lg:px-0">
           <Link to="/" onClick={useActive.closeMobileMenu}>
-            <img src={logo} alt="Logo image" className="h-20 w-auto my-2" />
+            <img
+              src={logo}
+              alt="Logo image"
+              className="h-16 w-auto my-2 md:h-20"
+            />
           </Link>
           <button
             className="-mr-2 flex size-12 flex-col items-center justify-center lg:hidden"
