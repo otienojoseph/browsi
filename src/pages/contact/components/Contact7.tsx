@@ -1,6 +1,6 @@
 "use client";
 
-import { Button, Checkbox, Input, Label, Textarea } from "@relume_io/relume-ui";
+import { Button, Input, Label, Textarea } from "@relume_io/relume-ui";
 
 export function Contact7() {
   return (
