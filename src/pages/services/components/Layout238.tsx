@@ -8,7 +8,7 @@ export function Layout238() {
     <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
       <div className="container">
         <div className="rb-12 mb-12 text-center md:mb-18 lg:mb-20">
-          <div className="mx-auto w-full max-w-lg">
+          <div className="mx-auto w-full max-w-4xl">
             <h2 className="text-4xl leading-[1.2] font-bold md:text-5xl lg:text-6xl">
               Transform Your Brand with Our Comprehensive Brand Strategy
               Services

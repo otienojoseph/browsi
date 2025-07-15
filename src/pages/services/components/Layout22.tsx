@@ -16,7 +16,7 @@ export function Layout22() {
                 alt="Relume logo"
               />
             </div>
-            <h2 className="rb-5 mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
+            <h2 className="rb-5 mb-5 text-5xl font-bold md:mb-6 md:text-6xl lg:text-8xl">
               Elevate Your Business with Marketing Automation
             </h2>
             <p className="md:text-md">
@@ -25,7 +25,11 @@ export function Layout22() {
               your processes to nurture leads and optimize your sales funnel.
             </p>
             <div className="mt-6 flex flex-wrap items-center gap-4 md:mt-8">
-              <Button title="Learn More" variant="secondary">
+              <Button
+                title="Learn More"
+                variant="secondary"
+                className="py-2 px-3"
+              >
                 Learn More
               </Button>
               <Button

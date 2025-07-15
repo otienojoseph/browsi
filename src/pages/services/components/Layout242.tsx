@@ -8,7 +8,7 @@ export function Layout242() {
     <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
       <div className="container">
         <div className="flex flex-col items-start">
-          <div className="rb-12 mb-12 w-full max-w-lg md:mb-18 lg:mb-20">
+          <div className="rb-12 mb-12 w-full max-w-3xl md:mb-18 lg:mb-20">
             <h3 className="text-4xl leading-[1.2] font-bold md:text-5xl lg:text-6xl">
               Transform Your Online Presence with Our Expert Web Development
               Services

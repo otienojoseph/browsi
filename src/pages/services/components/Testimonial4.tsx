@@ -4,7 +4,7 @@ import { BiSolidStar } from "react-icons/bi";
 
 export function Testimonial4() {
   return (
-    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
+    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28 bg-red-200">
       <div className="container">
         <div className="mx-auto w-full max-w-lg text-center">
           <div className="mb-6 flex items-center justify-center md:mb-8">
