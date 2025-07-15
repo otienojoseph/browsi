@@ -9,8 +9,8 @@ export function Header36() {
       id="relume"
       className="grid grid-cols-1 items-center gap-y-16 pt-16 md:pt-24 lg:grid-cols-2 lg:pt-0"
     >
-      <div className="mx-[5%] sm:max-w-md md:justify-self-start lg:mr-20 lg:ml-[5vw] lg:justify-self-end">
-        <h1 className="mb-5 text-6xl font-bold md:mb-6 md:text-9xl lg:text-10xl">
+      <div className="mx-[5%] sm:max-w-lg md:justify-self-start lg:mr-20 lg:ml-[5vw] border-2 border-red-500">
+        <h1 className="mb-5 text-4xl font-bold md:mb-6 md:text-6xl lg:text-8xl">
           Transform Your Online Presence with Browsi
         </h1>
         <p className="md:text-md">
