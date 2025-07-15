@@ -4,7 +4,7 @@ export function Header64() {
   return (
     <section
       id="relume"
-      className="px-[5%] py-16 md:py-24 lg:py-28 flex justify-center items-center"
+      className="px-[5%] py-16 md:py-24 lg:py-28 flex justify-center items-center bg-red-400 text-white"
     >
       <div className="container max-w-6xl text-center">
         <h1 className="mb-5 text-6xl font-bold md:mb-6 md:text-9xl lg:text-10xl">
