@@ -1,7 +1,5 @@
 "use client";
 
-import React from "react";
-
 export function Logo3() {
   return (
     <section id="relume" className="overflow-hidden py-12 md:py-16 lg:py-20">

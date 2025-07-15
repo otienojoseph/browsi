@@ -1,7 +1,6 @@
 "use client";
 
 import { Button, Checkbox, Input, Label, Textarea } from "@relume_io/relume-ui";
-import React from "react";
 
 export function Contact7() {
   return (

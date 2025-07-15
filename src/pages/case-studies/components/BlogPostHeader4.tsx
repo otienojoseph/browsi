@@ -1,7 +1,6 @@
 "use client";
 
 import { Badge } from "@relume_io/relume-ui";
-import React from "react";
 import { RxChevronLeft } from "react-icons/rx";
 
 export function BlogPostHeader4() {

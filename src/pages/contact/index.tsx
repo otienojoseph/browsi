@@ -1,10 +1,9 @@
-import React from "react";
-import { Navbar } from "@/components/Navbar";
+import { Navbar } from "../../components/Navbar";
 import { Header64 } from "./components/Header64";
 import { Contact17 } from "./components/Contact17";
 import { Contact7 } from "./components/Contact7";
 import { Cta2 } from "./components/Cta2";
-import { Footer } from "@/components/Footer";
+import { Footer } from "../../components/Footer";
 
 export default function Page() {
   return (

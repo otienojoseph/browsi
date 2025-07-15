@@ -1,7 +1,6 @@
 "use client";
 
 import { Button, Input } from "@relume_io/relume-ui";
-import React from "react";
 
 export function Cta2() {
   return (
@@ -45,4 +44,3 @@ export function Cta2() {
     </section>
   );
 }
-
