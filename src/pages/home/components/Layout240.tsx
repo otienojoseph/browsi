@@ -7,7 +7,7 @@ export function Layout240() {
   return (
     <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
       <div className="container">
-        <div className="rb-12 mx-auto mb-12 w-full max-w-lg text-center md:mb-18 lg:mb-20">
+        <div className="rb-12 mx-auto mb-12 w-full max-w-4xl text-center md:mb-18 lg:mb-20">
           <h2 className="text-4xl leading-[1.2] font-bold md:text-5xl lg:text-6xl">
             Transforming Ideas into Engaging Digital Experiences That Drive
             Results

@@ -2,8 +2,11 @@
 
 export function Logo3() {
   return (
-    <section id="relume" className="overflow-hidden py-12 md:py-16 lg:py-20">
-      <div className="container mb-8 w-full max-w-lg px-[5%] md:mb-10 lg:mb-12">
+    <section
+      id="relume"
+      className="overflow-hidden py-12 md:py-16 lg:py-20 bg-red-100"
+    >
+      <div className="container mb-8 w-full px-[5%] md:mb-10 lg:mb-12">
         <h1 className="text-center text-base leading-[1.2] font-bold md:text-md md:leading-[1.2]">
           Trusted by industry leaders worldwide
         </h1>

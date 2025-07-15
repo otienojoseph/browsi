@@ -5,10 +5,10 @@ import { RxChevronRight } from "react-icons/rx";
 
 export function Layout237() {
   return (
-    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
+    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28 bg-red-100">
       <div className="container">
         <div className="flex flex-col items-center">
-          <div className="rb-12 mb-12 w-full max-w-lg text-center md:mb-18 lg:mb-20">
+          <div className="rb-12 mb-12 w-full max-w-4xl text-center md:mb-18 lg:mb-20">
             <p className="mb-3 font-semibold md:mb-4">Excellence</p>
             <h2 className="rb-5 mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
               Why Choose Browsi for Your Digital Needs
@@ -61,7 +61,9 @@ export function Layout237() {
             </div>
           </div>
           <div className="mt-10 flex items-center gap-4 md:mt-14 lg:mt-16">
-            <Button variant="secondary">Learn More</Button>
+            <Button variant="secondary" className="py-2 px-3">
+              Learn More
+            </Button>
             <Button iconRight={<RxChevronRight />} variant="link" size="link">
               View
             </Button>

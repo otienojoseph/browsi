@@ -53,7 +53,7 @@ export function Layout10() {
               </div>
             </div>
             <div className="mt-6 flex flex-wrap items-center gap-4 md:mt-8">
-              <Button title="View" variant="secondary">
+              <Button title="View" variant="secondary" className="py-2 px-3">
                 View
               </Button>
               <Button

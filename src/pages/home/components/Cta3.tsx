@@ -6,7 +6,7 @@ export function Cta3() {
   return (
     <section id="relume" className="relative px-[5%] py-16 md:py-24 lg:py-28">
       <div className="relative z-10 container">
-        <div className="w-full max-w-lg">
+        <div className="w-full max-w-4xl">
           <h2 className="mb-5 text-5xl font-bold text-text-alternative md:mb-6 md:text-7xl lg:text-8xl">
             Ready to Elevate Your Brand?
           </h2>
@@ -15,8 +15,14 @@ export function Cta3() {
             and grows your business.
           </p>
           <div className="mt-6 flex flex-wrap gap-4 md:mt-8">
-            <Button title="Consult">Consult</Button>
-            <Button title="Explore" variant="secondary-alt">
+            <Button title="Consult" className="py-2 px-3">
+              Consult
+            </Button>
+            <Button
+              title="Explore"
+              variant="secondary-alt"
+              className="py-2 px-3"
+            >
               Explore
             </Button>
           </div>

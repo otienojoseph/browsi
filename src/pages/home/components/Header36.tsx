@@ -6,7 +6,7 @@ export function Header36() {
   return (
     <section
       id="relume"
-      className="grid grid-cols-1 items-center gap-y-16 pt-16 md:pt-24 lg:grid-cols-2 lg:pt-0"
+      className="grid grid-cols-1 items-center gap-y-16 pt-16 md:pt-24 lg:grid-cols-2 lg:pt-0 bg-red-400 text-white"
     >
       <div className="mx-[5%] sm:max-w-3xl md:justify-self-start lg:mr-20 lg:ml-[5vw]">
         <h1 className="mb-5 text-5xl font-bold md:mb-6 md:text-6xl lg:text-8xl">
@@ -18,8 +18,13 @@ export function Header36() {
           strategic marketing to drive results.
         </p>
         <div className="mt-6 flex flex-wrap gap-4 md:mt-8">
-          <Button title="Consult">Consult</Button>
-          <Button title="Portfolio" variant="secondary">
+          <Button
+            title="Consult"
+            className="py-2 px-3 bg-white text-black border-0"
+          >
+            Consult
+          </Button>
+          <Button title="Portfolio" variant="secondary" className="py-2 px-3">
             Portfolio
           </Button>
         </div>
