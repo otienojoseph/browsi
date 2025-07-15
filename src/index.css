@@ -21,5 +21,17 @@ body {
   justify-content: center;
   place-items: center;
   min-width: 320px;
-  min-height: 100vh;
+min-height: 100vh;
+
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
