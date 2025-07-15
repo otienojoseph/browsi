@@ -9,7 +9,7 @@ export function Contact7() {
         <div>
           <div className="mb-6 md:mb-8">
             <p className="mb-3 font-semibold md:mb-4">Get in Touch</p>
-            <h2 className="mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
+            <h2 className="mb-5 text-5xl font-bold md:mb-6 md:text-6xl lg:text-7xl">
               Contact Us
             </h2>
             <p className="md:text-md">We'd love to hear from you!</p>
@@ -19,13 +19,17 @@ export function Contact7() {
               <Label htmlFor="name" className="mb-2">
                 Name
               </Label>
-              <Input type="text" id="name" />
+              <Input type="text" id="name" className="border border-gray-300" />
             </div>
             <div className="grid w-full items-center">
               <Label htmlFor="email" className="mb-2">
                 Email
               </Label>
-              <Input type="email" id="email" />
+              <Input
+                type="email"
+                id="email"
+                className="border border-gray-300"
+              />
             </div>
             <div className="grid w-full items-center">
               <Label htmlFor="message" className="mb-2">
@@ -34,17 +38,17 @@ export function Contact7() {
               <Textarea
                 id="message"
                 placeholder="Type your message..."
-                className="min-h-[11.25rem] overflow-auto"
+                className="min-h-[11.25rem] overflow-auto border border-gray-300 p-3"
               />
             </div>
-            <div className="mb-3 flex items-center space-x-2 text-sm md:mb-4">
-              <Checkbox id="terms" />
-              <Label htmlFor="terms" className="cursor-pointer">
-                I accept the Terms
-              </Label>
-            </div>
+
             <div>
-              <Button title="Submit">Submit</Button>
+              <Button
+                title="Submit"
+                className="py-2 px-3 border-2 border-gray-700 text-black hover:border-red-500 hover:text-red-500 transition-colors duration-300"
+              >
+                Submit
+              </Button>
             </div>
           </form>
         </div>

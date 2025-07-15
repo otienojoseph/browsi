@@ -18,7 +18,7 @@ export function Contact17() {
               We’re here to assist you with any inquiries or support.
             </p>
             <a className="underline" href="#">
-              hello@relume.io
+              info@browsi.com
             </a>
           </div>
           <div>
@@ -32,7 +32,7 @@ export function Contact17() {
               Reach us for immediate assistance or to schedule a consultation.
             </p>
             <a className="underline" href="#">
-              +1 (555) 123-4567
+              +(254) 716 937 322
             </a>
           </div>
           <div>
@@ -46,7 +46,7 @@ export function Contact17() {
               Visit us at our headquarters for in-person consultations.
             </p>
             <a className="underline" href="#">
-              456 Creative Blvd, Sydney NSW 2000 AU
+              Nairobi, Kenya
             </a>
           </div>
         </div>
