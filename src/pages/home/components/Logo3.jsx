@@ -10,90 +10,22 @@ export function Logo3() {
           Trusted by industry leaders worldwide
         </h1>
       </div>
-      <div className="flex items-center pt-7 md:pt-0">
-        <div className="flex shrink-0 animate-loop-horizontally items-center">
-          <img
-            className="mx-7 max-h-12 shrink-0 md:mx-10 md:max-h-14"
-            src="https://d22po4pjz3o32e.cloudfront.net/webflow-logo.svg"
-            alt="Webflow logo 1"
-          />
-          <img
-            className="mx-7 max-h-12 shrink-0 md:mx-10 md:max-h-14"
-            src="https://d22po4pjz3o32e.cloudfront.net/relume-logo.svg"
-            alt="Relume logo 1"
-          />
-          <img
-            className="mx-7 max-h-12 shrink-0 md:mx-10 md:max-h-14"
-            src="https://d22po4pjz3o32e.cloudfront.net/webflow-logo.svg"
-            alt="Webflow logo 2"
-          />
-          <img
-            className="mx-7 max-h-12 shrink-0 md:mx-10 md:max-h-14"
-            src="https://d22po4pjz3o32e.cloudfront.net/relume-logo.svg"
-            alt="Relume logo 2"
-          />
-          <img
-            className="mx-7 max-h-12 shrink-0 md:mx-10 md:max-h-14"
-            src="https://d22po4pjz3o32e.cloudfront.net/webflow-logo.svg"
-            alt="Webflow logo 3"
-          />
-          <img
-            className="mx-7 max-h-12 shrink-0 md:mx-10 md:max-h-14"
-            src="https://d22po4pjz3o32e.cloudfront.net/relume-logo.svg"
-            alt="Relume logo 3"
-          />
-          <img
-            className="mx-7 max-h-12 shrink-0 md:mx-10 md:max-h-14"
-            src="https://d22po4pjz3o32e.cloudfront.net/webflow-logo.svg"
-            alt="Webflow logo 4"
-          />
-          <img
-            className="mx-7 max-h-12 shrink-0 md:mx-10 md:max-h-14"
-            src="https://d22po4pjz3o32e.cloudfront.net/relume-logo.svg"
-            alt="Relume logo 4"
-          />
-        </div>
-        <div className="flex shrink-0 animate-loop-horizontally items-center">
-          <img
-            className="mx-7 max-h-12 shrink-0 md:mx-10 md:max-h-14"
-            src="https://d22po4pjz3o32e.cloudfront.net/webflow-logo.svg"
-            alt="Webflow logo 1"
-          />
-          <img
-            className="mx-7 max-h-12 shrink-0 md:mx-10 md:max-h-14"
-            src="https://d22po4pjz3o32e.cloudfront.net/relume-logo.svg"
-            alt="Relume logo 1"
-          />
-          <img
-            className="mx-7 max-h-12 shrink-0 md:mx-10 md:max-h-14"
-            src="https://d22po4pjz3o32e.cloudfront.net/webflow-logo.svg"
-            alt="Webflow logo 2"
-          />
-          <img
-            className="mx-7 max-h-12 shrink-0 md:mx-10 md:max-h-14"
-            src="https://d22po4pjz3o32e.cloudfront.net/relume-logo.svg"
-            alt="Relume logo 2"
-          />
-          <img
-            className="mx-7 max-h-12 shrink-0 md:mx-10 md:max-h-14"
-            src="https://d22po4pjz3o32e.cloudfront.net/webflow-logo.svg"
-            alt="Webflow logo 3"
-          />
-          <img
-            className="mx-7 max-h-12 shrink-0 md:mx-10 md:max-h-14"
-            src="https://d22po4pjz3o32e.cloudfront.net/relume-logo.svg"
-            alt="Relume logo 3"
-          />
-          <img
-            className="mx-7 max-h-12 shrink-0 md:mx-10 md:max-h-14"
-            src="https://d22po4pjz3o32e.cloudfront.net/webflow-logo.svg"
-            alt="Webflow logo 4"
-          />
-          <img
-            className="mx-7 max-h-12 shrink-0 md:mx-10 md:max-h-14"
-            src="https://d22po4pjz3o32e.cloudfront.net/relume-logo.svg"
-            alt="Relume logo 4"
-          />
+      <div className="flex items-center justify-center pt-7 md:pt-0">
+        <div className="flex shrink-0 animate-pulse items-center space-x-20 sm:space-x-12">
+          {[...Array(4)].map((_, i) => (
+            <div key={i} className="flex items-center space-x-8 sm:space-x-12">
+              <img
+                className="h-8 w-auto grayscale opacity-60 hover:opacity-100 transition-opacity sm:h-10 md:h-12"
+                src="https://d22po4pjz3o32e.cloudfront.net/webflow-logo.svg"
+                alt={`Partner logo ${i + 1}`}
+              />
+              <img
+                className="h-8 w-auto grayscale opacity-60 hover:opacity-100 transition-opacity sm:h-10 md:h-12"
+                src="https://d22po4pjz3o32e.cloudfront.net/relume-logo.svg"
+                alt={`Partner logo ${i + 1}`}
+              />
+            </div>
+          ))}
         </div>
       </div>
     </section>
