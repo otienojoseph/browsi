@@ -1,9 +1,8 @@
 "use client";
 
 import { Button, useMediaQuery } from "@relume_io/relume-ui";
-import { AnimatePresence, motion } from "framer-motion";
-import React, { useState } from "react";
-import { RxChevronDown } from "react-icons/rx";
+import { motion } from "framer-motion";
+import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import logo from "@/assets/browsi_logo.png";
 
@@ -47,9 +46,9 @@ export function Navbar() {
   const useActive = useRelume();
   const location = useLocation();
 
-  const isActive = (path) => location.pathname === path;
+  const isActive = (path: string) => location.pathname === path;
 
-  const navLinkClass = (path) => `
+  const navLinkClass = (path: string) => `
     block py-3 text-md first:pt-7 lg:px-4 lg:py-2 lg:text-base first:lg:pt-2 
     transition-colors duration-200 hover:text-primary
     ${isActive(path) ? "text-primary font-semibold" : "text-text-primary"}
