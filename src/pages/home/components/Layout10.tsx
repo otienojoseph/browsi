@@ -2,6 +2,8 @@
 
 import { Button } from "@relume_io/relume-ui";
 import { RxChevronRight } from "react-icons/rx";
+import { HiOutlineEyeOff } from "react-icons/hi";
+import { HiOutlineLightBulb } from "react-icons/hi";
 
 export function Layout10() {
   return (
@@ -21,11 +23,7 @@ export function Layout10() {
             <div className="grid grid-cols-1 gap-6 py-2 sm:grid-cols-2">
               <div>
                 <div className="mb-3 md:mb-4">
-                  <img
-                    src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
-                    className="size-12"
-                    alt="Relume logo 1"
-                  />
+                  <HiOutlineEyeOff className="w-8 h-8 lg:w-10 lg:h-10" />
                 </div>
                 <h6 className="mb-3 text-md leading-[1.4] font-bold md:mb-4 md:text-xl">
                   Challenge
@@ -37,11 +35,7 @@ export function Layout10() {
               </div>
               <div>
                 <div className="mb-3 md:mb-4">
-                  <img
-                    src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
-                    className="size-12"
-                    alt="Relume logo 1"
-                  />
+                  <HiOutlineLightBulb className="w-8 h-8 lg:w-10 lg:h-10" />
                 </div>
                 <h6 className="mb-3 text-md leading-[1.4] font-bold md:mb-4 md:text-xl">
                   Solution
