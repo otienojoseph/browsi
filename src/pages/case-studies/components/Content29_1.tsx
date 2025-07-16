@@ -12,87 +12,64 @@ export function Content29_1() {
   return (
     <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
       <div className="container">
-        <div className="mx-auto max-w-lg">
+        <div className="mx-auto max-w-4xl">
           <div className="md:prose-md prose lg:prose-lg mb-12 md:mb-20">
             <Fragment>
-              <h3>Introduction</h3>
+              <h3 className="font-bold text-lg">Introduction</h3>
               <p>
-                Mi tincidunt elit, id quisque ligula ac diam, amet. Vel etiam
-                suspendisse morbi eleifend faucibus eget vestibulum felis.
-                Dictum quis montes, sit sit. Tellus aliquam enim urna, etiam.
-                Mauris posuere vulputate arcu amet, vitae nisi, tellus
-                tincidunt. At feugiat sapien varius id.
+                In the fast-paced world of digital marketing, standing out is
+                essential. Our client, a local retail chain, faced declining
+                foot traffic and sales. They needed a solution that would not
+                only attract customers but also enhance their online
+                presence.{" "}
               </p>
               <p>
-                Eget quis mi enim, leo lacinia pharetra, semper. Eget in
-                volutpat mollis at volutpat lectus velit, sed auctor. Porttitor
-                fames arcu quis fusce augue enim. Quis at habitant diam at.
-                Suscipit tristique risus, at donec. In turpis vel et quam
-                imperdiet. Ipsum molestie aliquet sodales id est ac volutpat.
+                The challenge was clear: how to bridge the gap between their
+                physical stores and the growing online market. With a limited
+                budget and tight deadlines, we knew we had to devise a strategic
+                plan that would yield quick results.
               </p>
-              <figure>
+              <figure className="py-4">
                 <img
                   src="https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg"
                   alt="Relume placeholder image"
                 />
                 <figcaption>Image caption goes here</figcaption>
               </figure>
-              <h6>
-                Dolor enim eu tortor urna sed duis nulla. Aliquam vestibulum,
-                nulla odio nisl vitae. In aliquet pellentesque aenean hac
-                vestibulum turpis mi bibendum diam. Tempor integer aliquam in
-                vitae malesuada fringilla.
+              <h6 className="italic font-medium py-4">
+                To tackle this issue, we implemented a multi-faceted approach
+                that included a revamped website, targeted social media
+                campaigns, and local SEO optimization. By focusing on user
+                experience and mobile responsiveness, we ensured that potential
+                customers could easily navigate their offerings.
               </h6>
-              <p>
-                Elit nisi in eleifend sed nisi. Pulvinar at orci, proin
-                imperdiet commodo consectetur convallis risus. Sed condimentum
-                enim dignissim adipiscing faucibus consequat, urna. Viverra
-                purus et erat auctor aliquam. Risus, volutpat vulputate posuere
-                purus sit congue convallis aliquet. Arcu id augue ut feugiat
-                donec porttitor neque. Mauris, neque ultricies eu vestibulum,
-                bibendum quam lorem id. Dolor lacus, eget nunc lectus in tellus,
-                pharetra, porttitor.
-              </p>
               <blockquote>
-                "Ipsum sit mattis nulla quam nulla. Gravida id gravida ac enim
-                mauris id. Non pellentesque congue eget consectetur turpis.
-                Sapien, dictum molestie sem tempor. Diam elit, orci, tincidunt
-                aenean tempus."
+                "Our sales increased by 50% within three months! The new website
+                transformed our business."
               </blockquote>
               <p>
-                Tristique odio senectus nam posuere ornare leo metus, ultricies.
-                Blandit duis ultricies vulputate morbi feugiat cras placerat
-                elit. Aliquam tellus lorem sed ac. Montes, sed mattis
-                pellentesque suscipit accumsan. Cursus viverra aenean magna
-                risus elementum faucibus molestie pellentesque. Arcu ultricies
-                sed mauris vestibulum.
+                The results were remarkable. Not only did website traffic
+                double, but the conversion rate improved significantly.
+                Customers were now engaging with the brand online before
+                visiting the stores, leading to increased foot traffic.
               </p>
-              <h4>Conclusion</h4>
+              <h4 className="font-bold text-lg">Conclusion</h4>
               <p>
-                Morbi sed imperdiet in ipsum, adipiscing elit dui lectus. Tellus
-                id scelerisque est ultricies ultricies. Duis est sit sed leo
-                nisl, blandit elit sagittis. Quisque tristique consequat quam
-                sed. Nisl at scelerisque amet nulla purus habitasse.
+                This case study demonstrates the power of a cohesive digital
+                strategy. By integrating online and offline marketing efforts,
+                we helped our client achieve their goals and set a foundation
+                for future growth.
               </p>
               <p>
-                Nunc sed faucibus bibendum feugiat sed interdum. Ipsum egestas
-                condimentum mi massa. In tincidunt pharetra consectetur sed duis
-                facilisis metus. Etiam egestas in nec sed et. Quis lobortis at
-                sit dictum eget nibh tortor commodo cursus.
-              </p>
-              <p>
-                Odio felis sagittis, morbi feugiat tortor vitae feugiat fusce
-                aliquet. Nam elementum urna nisi aliquet erat dolor enim. Ornare
-                id morbi eget ipsum. Aliquam senectus neque ut id eget
-                consectetur dictum. Donec posuere pharetra odio consequat
-                scelerisque et, nunc tortor.Nulla adipiscing erat a erat.
-                Condimentum lorem posuere gravida enim posuere cursus diam.
+                In today’s market, having a strong digital presence is no longer
+                optional; it’s essential. Our team is ready to help you navigate
+                these challenges and achieve similar success.
               </p>
             </Fragment>
           </div>
           <div className="flex flex-col gap-8 sm:flex-row sm:items-end sm:justify-between">
             <div className="sm:max-w-1/2">
-              <p className="font-semibold md:text-md">Spread the word</p>
+              <p className="font-semibold md:text-md">Share this story</p>
               <div className="mt-3 flex items-start gap-2 md:mt-4">
                 <a
                   href="#"
@@ -125,7 +102,7 @@ export function Content29_1() {
                 <li className="flex">
                   <a
                     href="#"
-                    className="bg-background-secondary px-2 py-1 text-sm font-semibold"
+                    className="bg-red-100 px-2 py-1 text-sm font-semibold"
                   >
                     Digital Marketing
                   </a>
@@ -133,15 +110,7 @@ export function Content29_1() {
                 <li className="flex">
                   <a
                     href="#"
-                    className="bg-background-secondary px-2 py-1 text-sm font-semibold"
-                  >
-                    Website Redesign
-                  </a>
-                </li>
-                <li className="flex">
-                  <a
-                    href="#"
-                    className="bg-background-secondary px-2 py-1 text-sm font-semibold"
+                    className="bg-red-100 px-2 py-1 text-sm font-semibold"
                   >
                     SEO Strategy
                   </a>
@@ -149,9 +118,17 @@ export function Content29_1() {
                 <li className="flex">
                   <a
                     href="#"
-                    className="bg-background-secondary px-2 py-1 text-sm font-semibold"
+                    className="bg-red-100 px-2 py-1 text-sm font-semibold"
                   >
                     User Experience
+                  </a>
+                </li>
+                <li className="flex">
+                  <a
+                    href="#"
+                    className="bg-red-100 px-2 py-1 text-sm font-semibold"
+                  >
+                    Website Redesign
                   </a>
                 </li>
               </ul>
@@ -166,7 +143,7 @@ export function Content29_1() {
             />
             <div className="grow">
               <p className="font-semibold md:text-md">Jane Doe</p>
-              <p>Marketing Director, Company X</p>
+              <p>Marketing Manager, Retail Co.</p>
             </div>
           </div>
         </div>

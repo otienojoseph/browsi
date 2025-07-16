@@ -8,7 +8,7 @@ export function BlogPostHeader4() {
     <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
       <div className="container">
         <div className="grid gap-x-20 gap-y-12 md:grid-cols-[.5fr_1fr]">
-          <div className="mx-auto flex size-full max-w-lg flex-col items-start justify-start">
+          <div className="mx-auto flex size-full max-w-4xl flex-col items-start justify-start">
             <div className="rb-12 flex flex-col items-start justify-start">
               <a
                 className="rounded-button inline-flex items-center justify-center whitespace-nowrap transition-all duration-200 ease-in-out disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-none border-0 text-text-primary gap-2 bg-transparent p-0 mb-6 md:mb-8"
