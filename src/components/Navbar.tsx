@@ -146,14 +146,14 @@ export function Navbar() {
           </Link>
           <Link
             to="/case-studies"
-            className={navLinkClass("/services")}
+            className={navLinkClass("/case-studies")}
             onClick={useActive.closeMobileMenu}
           >
             Case Studies
           </Link>
           <Link
             to="/contact"
-            className={navLinkClass("/services")}
+            className={navLinkClass("/contact")}
             onClick={useActive.closeMobileMenu}
           >
             Contact Us
