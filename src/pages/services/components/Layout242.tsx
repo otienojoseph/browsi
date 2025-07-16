@@ -1,6 +1,8 @@
 "use client";
 
 import { Button } from "@relume_io/relume-ui";
+import { FaPuzzlePiece, FaShoppingCart } from "react-icons/fa";
+import { MdDevices } from "react-icons/md";
 import { RxChevronRight } from "react-icons/rx";
 
 export function Layout242() {
@@ -17,11 +19,7 @@ export function Layout242() {
           <div className="grid grid-cols-1 items-start gap-y-12 md:grid-cols-3 md:gap-x-8 md:gap-y-16 lg:gap-x-12">
             <div>
               <div className="rb-5 mb-5 md:mb-6">
-                <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
-                  alt="Relume logo 1"
-                  className="size-12"
-                />
+                <FaPuzzlePiece className="w-8 h-8 lg:w-10 lg:h-10" />
               </div>
               <h3 className="mb-5 text-xl font-bold md:mb-6 md:text-2xl">
                 Innovative Solutions Tailored to Your Unique Business Needs
@@ -42,11 +40,7 @@ export function Layout242() {
             </div>
             <div>
               <div className="rb-5 mb-5 md:mb-6">
-                <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
-                  alt="Relume logo 1"
-                  className="size-12"
-                />
+                <MdDevices className="w-8 h-8 lg:w-10 lg:h-10" />
               </div>
               <h3 className="mb-5 text-xl font-bold md:mb-6 md:text-2xl">
                 Responsive Designs That Look Great on Any Device
@@ -67,11 +61,7 @@ export function Layout242() {
             </div>
             <div>
               <div className="rb-5 mb-5 md:mb-6">
-                <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
-                  alt="Relume logo 1"
-                  className="size-12"
-                />
+                <FaShoppingCart className="w-8 h-8 lg:w-10 lg:h-10" />
               </div>
               <h3 className="mb-5 text-xl font-bold md:mb-6 md:text-2xl">
                 E-Commerce Solutions to Boost Your Online Sales

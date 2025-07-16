@@ -2,6 +2,7 @@
 
 import { Button } from "@relume_io/relume-ui";
 import { RxChevronRight } from "react-icons/rx";
+import { RiRobot2Line } from "react-icons/ri";
 
 export function Layout22() {
   return (
@@ -10,11 +11,7 @@ export function Layout22() {
         <div className="grid grid-cols-1 gap-y-12 md:grid-cols-2 md:items-center md:gap-x-12 lg:gap-x-20">
           <div>
             <div className="rb-5 mb-5 md:mb-6">
-              <img
-                src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
-                className="size-20"
-                alt="Relume logo"
-              />
+              <RiRobot2Line className="w-8 h-8 lg:w-10 lg:h-10" />
             </div>
             <h2 className="rb-5 mb-5 text-5xl font-bold md:mb-6 md:text-6xl lg:text-8xl">
               Elevate Your Business with Marketing Automation

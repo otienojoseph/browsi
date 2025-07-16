@@ -1,7 +1,10 @@
 "use client";
 
 import { Button } from "@relume_io/relume-ui";
+import { FiTrendingUp } from "react-icons/fi";
+import { MdAutorenew } from "react-icons/md";
 import { RxChevronRight } from "react-icons/rx";
+import { TbFingerprint } from "react-icons/tb";
 
 export function Layout238() {
   return (
@@ -18,11 +21,7 @@ export function Layout238() {
         <div className="grid grid-cols-1 items-start justify-center gap-y-12 md:grid-cols-3 md:gap-x-8 md:gap-y-16 lg:gap-x-12">
           <div className="flex flex-col items-center text-center">
             <div className="mb-5 md:mb-6">
-              <img
-                src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
-                alt="Relume logo"
-                className="size-12"
-              />
+              <TbFingerprint className="w-8 h-8 lg:w-10 lg:h-10" />
             </div>
             <h3 className="mb-5 text-xl font-bold md:mb-6 md:text-2xl">
               Crafting Unique Identities that Resonate with Your Audience
@@ -39,11 +38,7 @@ export function Layout238() {
           </div>
           <div className="flex flex-col items-center text-center">
             <div className="mb-5 md:mb-6">
-              <img
-                src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
-                alt="Relume logo"
-                className="size-12"
-              />
+              <MdAutorenew className="w-8 h-8 lg:w-10 lg:h-10" />
             </div>
             <h3 className="mb-5 text-xl font-bold md:mb-6 md:text-2xl">
               Rebranding Services to Refresh and Revitalize Your Business Image
@@ -60,11 +55,7 @@ export function Layout238() {
           </div>
           <div className="flex flex-col items-center text-center">
             <div className="mb-5 md:mb-6">
-              <img
-                src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
-                alt="Relume logo"
-                className="size-12"
-              />
+              <FiTrendingUp className="w-8 h-8 lg:w-10 lg:h-10" />
             </div>
             <h3 className="mb-5 text-xl font-bold md:mb-6 md:text-2xl">
               Competitive Analysis to Position Your Brand Ahead of the Market
