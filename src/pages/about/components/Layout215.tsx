@@ -1,5 +1,7 @@
 "use client";
 
+import { TbWorldWww } from "react-icons/tb";
+
 export function Layout215() {
   return (
     <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28 bg-red-100">
@@ -14,11 +16,7 @@ export function Layout215() {
           </div>
           <div className="order-1 md:order-2">
             <div className="mb-5 md:mb-6">
-              <img
-                src="https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg"
-                className="size-12"
-                alt="Relume logo"
-              />
+              <TbWorldWww className="w-8 h-8 lg:w-10 lg:h-10" />
             </div>
             <h3 className="mb-5 text-4xl leading-[1.2] font-bold md:mb-6 md:text-5xl lg:text-6xl">
               Our Mission: Empowering Brands Through Innovative Digital
